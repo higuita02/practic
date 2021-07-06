@@ -1,0 +1,77 @@
+
+
+.container-tables{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.container-table1{
+
+    display: flex;
+    flex-direction: column;
+    width:23.5rem;
+    height:auto;
+
+    margin: 3rem;
+
+}
+
+
+.container-tarjets{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--warm_black);
+    justify-content: center;
+    margin-bottom: 2rem;
+   
+
+
+}
+
+.tarjet1,.tarjet2,.tarjet3,.tarjet4{
+
+    display: flex;
+    flex-direction: column;
+    width: 28.8rem;
+    height: 20rem;
+    background-color: #282623;   
+    margin: 1.6rem;
+
+}
+
+
+.container-tarjets-pays{
+
+
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--off_white);
+
+}
+
+
+
+.tarjet-pay{
+
+    position: relative;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19rem;
+    height: 24.7rem;
+    background-color:var(--just_white);
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem gray;
+    margin: 0rem 2rem 6.4rem 2rem;
+}
